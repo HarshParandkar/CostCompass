@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Positions items on left and right */
+  align-items: center; /* Vertically centers items */
+  padding: 20px 20px;
+  background-color: #0681fd; /* Light background color */
+  box-shadow: 0 2px 5px white; /* Optional shadow for navbar */
+}
+
+.navbar-left h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 30px;
+  font-weight: bold;
+  color:white;
+  text-align:left;
+}
+
+.navbar-left h4 {
+  margin: 0; /* Remove default margin */
+  font-size: 15px;
+  font-weight: bold;
+  color:white
+  ;
+}
+
+.navbar-right ul {
+  display: flex; /* Flexbox for horizontal list */
+  list-style-type: none; /* Remove default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right ul li {
+  margin-left: 20px; /* Space between list items */
+}
+
+.navbar-right ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #f2eaea; /* Link color */
+  font-size: 20px;
+}
+
+.navbar-right ul li a:hover {
+  color: #007bff; /* Hover color for links */
+}
